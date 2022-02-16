@@ -142,11 +142,9 @@ a{
 
 /*!=======Nav=====*/
 
-
-
-.menu-left{
+.logo-left{
 	display:flex;
-	margin-top: 15px;
+	padding-top: 0px;
 & a{
 		color: #2a2929;
 		font-size: 16px;
@@ -155,7 +153,9 @@ a{
 		font-weight: 800;
 	}
 & img{
-		height: 18px;
+		height: 32px;
+		margin-left: 16px;
+		margin-top: 33px;
 	
 	}
 	
@@ -164,6 +164,22 @@ a{
 .Fon {
 	font-size: 19px;
 	font-family: calibri;
+}
+
+.menu {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+}
+
+.list li {
+    margin-right: 1em;
 }
 
 
@@ -185,36 +201,70 @@ a{
 		transition: all ease 0.2s;
 	}
 }
-nav{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 12px 60px;
+
+
+
+.content_icons {
+    display: none;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    cursor: pointer;
 }
 
-.box{
-	width: 220px;
-	height: 310px;
-	border-radius: 5px;
-	box-shadow: 2px 6px 30px rgba(0,0,0,0.1);
-	background-color:#f6f6f6;
-	margin: 30px 30px;
-	position:relative;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-& p{
-		font-family: calibri;
-	
-		text-align: center;
-		margin: 0px;
-		padding: 0px;
-		
-		
-		color: #3d3d3e;
-	}
+.content_icons .icon_close {
+    color: #000;
+    font-size: 2em;
+}
 
+.content_icons .icon_multi {
+    color: #000;
+    font-size: 2em;
+}
 
+.btn {
+    transition: 0.3s transform;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.icon_none {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .content_icons {
+        display: block;
+    }
+
+    .menu {
+        height: 100vh;
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        transition: all 1s;
+        margin-left: -100%;
+    }
+
+    .menu_show {
+        margin-left: 0;
+    }
+
+    .list {
+        flex-direction: column;
+    }
+
+    .menu span {
+        margin-left: 0;
+    }
+
+    .list li {
+        margin-right: 0;
+        margin-top: 1em;
+    }
 }
 
 /*!======Titulo(Fullstack)=========*/
@@ -257,6 +307,30 @@ nav{
 }
 
 /*!======Servicios========*/
+.box{
+	width: 220px;
+	height: 310px;
+	border-radius: 5px;
+	box-shadow: 2px 6px 30px rgba(0,0,0,0.1);
+	background-color:#f6f6f6;
+	margin: 30px 30px;
+	position:relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+& p{
+		font-family: calibri;
+	
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+		
+		
+		color: #3d3d3e;
+	}
+
+
+}
 .g-heading{
 	display: flex;
 	align-items: center;

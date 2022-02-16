@@ -12,19 +12,29 @@
 
 <body>
 <section class="main">
-<nav>
-<!--logo--------------------->
-<div class="menu-left">
-<img src="images/logo.png" class="logo">
-<a class="sign-in" href="./index.html">Home</a>
-<a class="sign-in" href="#ancla-1">Services</a>
-<a class="sign-in"  href="./pages/Quienes-somos.html">About us</a>
-<a class="sign-in"  href="./pages/Jobs.html">Jobs</a>
-<a class="sign-in"  href="./pages/FAQ.html">FAQ</a>
+	<!--logo-------------------->
+<div class="logo-left">
+		<img src="../images/logo.png" class="logo">
+	<nav class="menu" id="menu">
+        <ul class="list">
+            <li><a class="sign-in" href="./index.html">Home</a></li>
+            <li><a class="sign-in" href="./pages/Quienes-somos.html">About me</a></li>
+            <li><a class="sign-in" href="./pages/Jobs.html">Portfolio</a></li>
+            <li><a class="sign-in" href="#ancla-1">Services</a></li>
+            <li><a class="sign-in" href="./pages/FAQ.html">FAQ</a></li>
+            <li><a class="sign-in" href="./pages/Contacto.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content_icons" id="content_icons">
+        <div class="icon_close icon_none btn" id="close">
+            <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <div class="icon_multi btn" id="multi">
+            <ion-icon name="grid-outline"></ion-icon>
+        </div>
+    </div>
 </div>
-<!--Contact----------------------------->
-<a href="./pages/Contacto.html" class="sign-in">Contact</a>
-</nav>
+
 
 <!--Tittle-web----------------------------->
 <div class="Titulo-web">
@@ -195,6 +205,8 @@
 	
 	</footer>
 	<!--Scripts---------------------->
+	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="./js/nav.js"></script>
 	   <!--ReadMore(Button)---------------------->
         
 	<script>

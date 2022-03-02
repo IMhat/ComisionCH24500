@@ -46,7 +46,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 50px 0px;
+  margin: 120px 0px;
 }
 
 .project-heading {

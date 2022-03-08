@@ -15,54 +15,71 @@
     <title>FAQ</title>
 </head>
 <body class="body1">
-    <header>
-        <nav>
-            <!--logo-------------------->
-            <div class="menu-left">
-            <img src="../images/logo.png" class="logo">
-            <a class="sign-in" href="../index.html">Home</a>
-            <a class="sign-in" href="../index.html">Services</a>
-            <a class="sign-in"  href="../pages/Quienes-somos.html">About us</a>
-            <a class="sign-in"  href="../pages/Jobs.html">Jobs</a>
-            <a class="sign-in"  href="../pages/FAQ.html">FAQ</a>
-            </div>
-            <!--Contacto----------------------------->
-            <a href="./Contacto.html" class="sign-in">Contact</a>
-            </nav>
-    </header>
+    
+        <!--logo-------------------->
+	<!--logo-------------------->
+    <div class="logo-left">
+		<a href="../index.html"><img src="../images/logo.png" class="logo"></a>
+	<nav class="menu" id="menu">
+        <a href="../index.html"><img src="../images/logo.png" class="logo-mobile"></a>
+        <ul class="list">
+            <li><a class="sign-in" href="../index.html">Home</a></li>
+            <li><a class="sign-in" href="../index.html">Services</a></li>
+            <li><a class="sign-in" href="../pages/Quienes-somos.html">About us</a></li>
+            <li><a class="sign-in" href="../pages/Jobs.html">Portfolio</a></li>
+            <li><a class="sign-in" href="../pages/FAQ.html">FAQ</a></li>
+            <li><a class="sign-in" href="../pages/Contacto.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content_icons" id="content_icons">
+        <div class="icon_close icon_none btn" id="close">
+            <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <div class="icon_multi btn" id="multi">
+            <ion-icon name="grid-outline"></ion-icon>
+        </div>
+    </div>
+</div>
+    <!--  -->
     <!----------------FAQ-------------------->
     <main class="main3">
         <!----------------Titulo-------------------->
         <h1 class="titulo">Preguntas Frecuentes</h1>
         <!----------------Images(icon)-------------------->
         <div class="categorias" id="categorias">
-          <div class="categoria" data-categoria="metodos de pago">
+          <div class="categoria activa" data-categoria="metodos-pago">
             <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.19 7h2.81v15h-21v-5h-2.81v-15h21v5zm1.81 1h-19v13h19v-13zm-9.5 1c3.036 0 5.5 2.464 5.5 5.5s-2.464 5.5-5.5 5.5-5.5-2.464-5.5-5.5 2.464-5.5 5.5-5.5zm0 1c2.484 0 4.5 2.016 4.5 4.5s-2.016 4.5-4.5 4.5-4.5-2.016-4.5-4.5 2.016-4.5 4.5-4.5zm.5 8h-1v-.804c-.767-.16-1.478-.689-1.478-1.704h1.022c0 .591.326.886.978.886.817 0 1.327-.915-.167-1.439-.768-.27-1.68-.676-1.68-1.693 0-.796.573-1.297 1.325-1.448v-.798h1v.806c.704.161 1.313.673 1.313 1.598h-1.018c0-.788-.727-.776-.815-.776-.55 0-.787.291-.787.622 0 .247.134.497.957.768 1.056.344 1.663.845 1.663 1.746 0 .651-.376 1.288-1.313 1.448v.788zm6.19-11v-4h-19v13h1.81v-9h17.19z"/></svg>
-            <p>Metodos De Pago</p>
+            <p>Payment methods</p>
           </div>
           <div class="categoria" data-categoria="Entregas">
             <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M7 24h-5v-9h5v1.735c.638-.198 1.322-.495 1.765-.689.642-.28 1.259-.417 1.887-.417 1.214 0 2.205.499 4.303 1.205.64.214 1.076.716 1.175 1.306 1.124-.863 2.92-2.257 2.937-2.27.357-.284.773-.434 1.2-.434.952 0 1.751.763 1.751 1.708 0 .49-.219.977-.627 1.356-1.378 1.28-2.445 2.233-3.387 3.074-.56.501-1.066.952-1.548 1.393-.749.687-1.518 1.006-2.421 1.006-.405 0-.832-.065-1.308-.2-2.773-.783-4.484-1.036-5.727-1.105v1.332zm-1-8h-3v7h3v-7zm1 5.664c2.092.118 4.405.696 5.999 1.147.817.231 1.761.354 2.782-.581 1.279-1.172 2.722-2.413 4.929-4.463.824-.765-.178-1.783-1.022-1.113 0 0-2.961 2.299-3.689 2.843-.379.285-.695.519-1.148.519-.107 0-.223-.013-.349-.042-.655-.151-1.883-.425-2.755-.701-.575-.183-.371-.993.268-.858.447.093 1.594.35 2.201.52 1.017.281 1.276-.867.422-1.152-.562-.19-.537-.198-1.889-.665-1.301-.451-2.214-.753-3.585-.156-.639.278-1.432.616-2.164.814v3.888zm3.79-19.913l3.21-1.751 7 3.86v7.677l-7 3.735-7-3.735v-7.719l3.784-2.064.002-.005.004.002zm2.71 6.015l-5.5-2.864v6.035l5.5 2.935v-6.106zm1 .001v6.105l5.5-2.935v-6l-5.5 2.83zm1.77-2.035l-5.47-2.848-2.202 1.202 5.404 2.813 2.268-1.167zm-4.412-3.425l5.501 2.864 2.042-1.051-5.404-2.979-2.139 1.166z"/></svg>
-            <p>Entregas</p>
+            <p>Delibery</p>
           </div>
-          <div class="categoria" data-categoria="Soporte y Mantenimiento">
+          <div class="categoria" data-categoria="Soporte-Mantenimiento">
             <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c-3.371 2.866-5.484 3-9 3v11.535c0 4.603 3.203 5.804 9 9.465 5.797-3.661 9-4.862 9-9.465v-11.535c-3.516 0-5.629-.134-9-3zm0 1.292c2.942 2.31 5.12 2.655 8 2.701v10.542c0 3.891-2.638 4.943-8 8.284-5.375-3.35-8-4.414-8-8.284v-10.542c2.88-.046 5.058-.391 8-2.701zm5 7.739l-5.992 6.623-3.672-3.931.701-.683 3.008 3.184 5.227-5.878.728.685z"/></svg>
-            <p>Soporte y Mantenimiento</p>
+            <p>Support and maintenance</p>
           </div>
-          <div class="categoria" data-categoria="Tecnologias usadas">
+          <div class="categoria" data-categoria="Tecnologias-usadas">
             <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M9.484 15.696l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm10.516 11.304h-8v1h8v-1zm0-5h-8v1h8v-1zm0-5h-8v1h8v-1zm4-5h-24v20h24v-20zm-1 19h-22v-18h22v18z"/></svg>
-            <p>Tecnologias usadas</p>
+            <p>Technologies</p>
           </div>
         </div>
         <!----------------1-------------------->
         <div class="preguntas">
-            <div class="contenedor-preguntas" data-categoria="metodos de pago">
+            <div class="contenedor-preguntas activo " data-categoria="metodos-pago">
                 <div class="contenedor-pregunta">
-                    <p class="pregunta">¿Que metodos de pagos hay disponibles? <img src="/iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
-                    <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, eum ipsa aspernatur ut vel cumque sit obcaecati quis velit vero.</p>
+                    <p class="pregunta">What payment methods are available? <img src="../iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
+                    <p class="respuesta">
+                        The means of payment can be:
+                        <br>
+                           — Bank Transfer (In Argentine pesos).
+                           — MercadoPago (In Argentine pesos).
+                           — Payoneer (In US dollar or euro).
+                           — Binance (USDT, Bitcoin or Etherium).</p>
                 </div>
                 <div class="contenedor-pregunta">
-                    <p class="pregunta">¿Tiene Plazo de pago? <img src="/iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
-                    <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, eum ipsa aspernatur ut vel cumque sit obcaecati quis velit vero.</p>
+                    <p class="pregunta">Do you have a payment term? <img src="../iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
+                    <p class="respuesta">Yes!. The payment is 50% in advance and the other 50% when the work is finished.</p>
                 </div>
             </div>
         </div>
@@ -70,42 +87,68 @@
         <div class="preguntas">
             <div class="contenedor-preguntas" data-categoria="Entregas">
                 <div class="contenedor-pregunta">
-                    <p class="pregunta">¿Que recibo una vez completado el proceso? <img src="/iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
-                    <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, eum ipsa aspernatur ut vel cumque sit obcaecati quis velit vero.</p>
+                    <p class="pregunta">What do I receive once the process is completed? <img src="../iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
+                    <p class="respuesta">
+                        Once the process is completed, you receive the complete project, already online and functional. You also have the option of contracting a Support and Maintenance system for it.</p>
                 </div>
                 <div class="contenedor-pregunta">
-                    <p class="pregunta">¿Una vez entregado el proyecto ¿hay que abonar algo más? <img src="/iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
-                    <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, eum ipsa aspernatur ut vel cumque sit obcaecati quis velit vero.</p>
+                    <p class="pregunta">Once the project is delivered, do I have to pay anything else?<img src="../iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
+                    <p class="respuesta">Having a web page always has a fixed payment, either monthly or annually, depending on the owner, these expenses are the host of the page and the domain.
+                        <br>
+
+                        What is the host?
+                        It is the site where the page is stored.
+                        <br>
+                        
+                        What is domain?
+                        The domain is the unique name that identifies your page on the internet.</p>
                 </div>
             </div>
         </div>
            <!----------------3-------------------->
         <div class="preguntas">
-            <div class="contenedor-preguntas" data-categoria="Soporte y Mantenimiento">
+            <div class="contenedor-preguntas" data-categoria="Soporte-Mantenimiento">
                 <div class="contenedor-pregunta">
-                    <p class="pregunta">Si quiero realizar cambios en mi página ¿A quién recurro?<img src="/iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
-                    <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, eum ipsa aspernatur ut vel cumque sit obcaecati quis velit vero.</p>
+                    <p class="pregunta">If I want to make changes to my page, who do I turn to?<img src="../iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
+                    <p class="respuesta">In addition to the development service, we have the support and maintenance service, in which we fully take care of the changes and modifications that you want to make to the page, as well as if any inconvenience arises in it.</p>
                 </div>
                 <div class="contenedor-pregunta">
-                    <p class="pregunta">Soporte y Mantenimiento<img src="/iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
-                    <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, eum ipsa aspernatur ut vel cumque sit obcaecati quis velit vero.</p>
+                    <p class="pregunta">Support and maintenance<img src="../iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
+                    <p class="respuesta">We offer maintenance services and support for your website!</p>
                 </div>
             </div>
         </div>
            <!----------------4-------------------->
         <div class="preguntas">
-            <div class="contenedor-preguntas" data-categoria="Tecnologias usadas">
+            <div class="contenedor-preguntas" data-categoria="Tecnologias-usadas">
                 <div class="contenedor-pregunta">
-                    <p class="pregunta">¿Qué tecnologías usan? <img src="/iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
-                    <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, eum ipsa aspernatur ut vel cumque sit obcaecati quis velit vero.</p>
+                    <p class="pregunta">What technologies do they use? <img src="../iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
+                    <p class="respuesta">We normally work with:
+                        <br>
+                        Backend—Null.
+                        <br>
+
+                        Frontend — JS, REACT JS, HTML5, SASS and CSS3.
+                        <br>
+
+                        Graphic design — Illustrator, Premiere and Photoshop.
+                        <br>
+
+                        Database—Null.
+                        <br>
+                     
+                     In any case, we are constantly researching and incorporating new tools. If you are interested in one in particular that you do not see here, we can evaluate it!</p>
                 </div>
                 <div class="contenedor-pregunta">
-                    <p class="pregunta">¿Las propuestas son personalizadas? <img src="/iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
-                    <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, eum ipsa aspernatur ut vel cumque sit obcaecati quis velit vero.</p>
+                    <p class="pregunta">Are the proposals personalized? <img src="../iconos/iconmonstr-plus-1.svg" alt="Abrir respuesta"> </p>
+                    <p class="respuesta">
+                        The proposals are always personalized, the pages are 100% unique and made completely to the client's liking.</p>
                 </div>
             </div>
         </div>
     </main>
+    <script src="../js/categorias.js"></script>
+    <script src="../js/preguntasFrecuentes.js"></script>
     <!--footer-->
 	<footer>
         <!---------------------------->
@@ -114,34 +157,35 @@
             <ul>
         <h1>Team</h1>
         <li><a href="#">Mateo Mansilla</a></li>
+        <li><a href="#">Merlina Vazquez</a></li>
         </ul>
         <!--2-->
         <ul>
         <h1>Channel</h1>
-        <li><a href="#">Website</a></li>
+        <li><a href="https://github.com/IMhat">GitHub</a></li>
+        <li><a href="https://imhat.github.io/ComisionCH24500/">Website</a></li>
         <li><a href="#">Blogs</a></li>
     
         </ul>
         
-        <!--social-->
+        <!--socail-->
         <div class="social">
         <h1>Social</h1>
         <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.facebook.com/mateo.mansilla.56/"><i class="fab fa-facebook-f"></i></a>
         <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+        <a href="https://www.instagram.com/mateomansilla22/?hl=es-la"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/mateo-mansilla-52a895227/"><i class="fa fa-linkedin-square"></i></a>
         </div>
         </div>
-        <!--search-->
-        <div class="search">
-        <h1>Search</h1>
-        <input type="search" placeholder=" Search Somthing Here">
-        </div>
+        
         </div>
         <!--copyright-->
-        <p class="copyright"> <font color="2a2929">Mat</font> developer copyright 2022</p>
+        <p class="copyright"> Mat developer copyright 2022</p>
         
         </footer>
+        <!--Scripts---------------------->
+	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="../js/nav.js"></script>
 </body>
 </html>

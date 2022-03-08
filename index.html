@@ -12,19 +12,30 @@
 
 <body>
 <section class="main">
-<nav>
-<!--logo-------------------->
-<div class="menu-left">
-<img src="images/logo.png" class="logo">
-<a class="sign-in" href="./index.html">Home</a>
-<a class="sign-in" href="#ancla-1">Services</a>
-<a class="sign-in"  href="./pages/Quienes-somos.html">About us</a>
-<a class="sign-in"  href="./pages/Jobs.html">Jobs</a>
-<a class="sign-in"  href="./pages/FAQ.html">FAQ</a>
+	<!--logo-------------------->
+<div class="logo-left">
+		<a href="./index.html"><img src="./images/logo.png" class="logo"></a>
+	<nav class="menu" id="menu">
+		<a href="./index.html"><img src="./images/logo.png" class="logo-mobile"></a>
+        <ul class="list">
+            <li><a class="sign-in" href="./index.html">Home</a></li>
+			<li><a class="sign-in" href="#ancla-1">Services</a></li>
+            <li><a class="sign-in" href="./pages/Quienes-somos.html">About us</a></li>
+            <li><a class="sign-in" href="./pages/Jobs.html">Portfolio</a></li>
+            <li><a class="sign-in" href="./pages/FAQ.html">FAQ</a></li>
+            <li><a class="sign-in" href="./pages/Contacto.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content_icons" id="content_icons">
+        <div class="icon_close icon_none btn" id="close">
+            <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <div class="icon_multi btn" id="multi">
+            <ion-icon name="grid-outline"></ion-icon>
+        </div>
+    </div>
 </div>
-<!--Contact----------------------------->
-<a href="./pages/Contacto.html" class="sign-in">Contact</a>
-</nav>
+
 
 <!--Tittle-web----------------------------->
 <div class="Titulo-web">
@@ -57,13 +68,14 @@
 		<div class="s-icon front-icon"></div>
 		<a href="#">Front End Devolper</a>
 		<p>
-			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, eveniet?
+			We design and style your website! in a clean and original way.
 			<span id="dots">........</span> 
 			<div id="more">
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ut eaque? Quos esse magni ipsa aspernatur quaerat libero, possimus temporibus omnis, qui, modi corrupti suscipit consequatur nisi et labore excepturi?
+					We create a web, responsive design-mobile-Desktop.
+                    With the technologies: HTML5, CSS3, JS AND REACT JS
 				</p>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non incidunt quisquam assumenda consequatur, consequuntur, distinctio possimus alias aperiam nihil eius dolorum. Expedita minus provident minima. Quo labore facere quibusdam eveniet.</p>
+				
 			</div>
 		</p>
 		<button onclick="readmore()" id="btn" class="service-button">Read More</button>	
@@ -73,13 +85,13 @@
 		<div class="s-icon back-icon"></div>
 		<a href="#">Back End</a>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, autem?
+			Null
 			<span id="dots1">........</span> 
 			<div id="more1">
 				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus asperiores consequuntur, eius aspernatur magnam ad in doloremque, minima neque voluptatibus est similique, culpa dolor harum dignissimos aliquid assumenda voluptas at?
+					...
 				</p>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim temporibus odio sunt animi et corporis expedita, repellat saepe nihil voluptatem ab aspernatur perspiciatis in quis? Asperiores itaque recusandae quos autem.</p>
+				<p>...</p>
 			</div>
 		</p>
 		<button onclick="readmore1()" id="btn1" class="service-button">Read More</button>	
@@ -89,13 +101,13 @@
 		<div class="s-icon seo-icon"></div>
 		<a href="#">SEO/Security</a>
 		<p>
-			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, reprehenderit!
+			We make your page appear in the recommendations of search engines!
 			<span id="dots2">........</span> 
 			<div id="more2">
 				<p>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quas in. Blanditiis voluptates, tempore unde, eaque molestias illo ex nesciunt debitis perspiciatis enim, eius iste. Vitae facere pariatur aut inventore.
+					 so that in this way you reach more customers. We also offer a clean code, which offers more security
 				</p>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi porro, nemo ex voluptas, nam vitae nisi nihil dolor iusto similique optio laudantium repellat nostrum fugit quas sunt vel voluptate.</p>
+				
 			</div>
 		</p>
 		<button onclick="readmore2()" id="btn2" class="service-button">Read More</button>
@@ -105,13 +117,12 @@
 		<div class="s-icon gui-icon"></div>
 		<a href="#">GUI</a>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, asperiores.
+			we offer multiple solutions for developing embedded GUIs of all levels of complexity.
 			<span id="dots3">........</span> 
 			<div id="more3">
 				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, nihil. Adipisci tenetur labore earum cupiditate a, totam soluta harum alias optio blanditiis! Velit blanditiis corporis magnam nisi provident aspernatur consequatur.
+					A growing number have complex graphical user interfaces, similar to those on smartphones.
 				</p>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae quod tempora magni ex magnam praesentium fugit optio ut officiis repudiandae aliquam culpa omnis temporibus, sapiente mollitia in architecto dolorem? Quidem!</p>
 			</div>
 		</p>
 		<button onclick="readmore3()" id="btn3" class="service-button">Read More</button>	
@@ -130,13 +141,23 @@
 	<!--team-conatiner-->
 	<div class="t-box-container">
 		<!--member-box---->
+	<div class="t-box-container">
+	<!--member-box-1--->
+	<div class="team-box">
+	<!--member-img-->
+	<div class="team-img t-img1"></div>
+	<div class="t-id">
+	<a href="#">Merlina Vazquez</a>
+	<p>Graphic designer</p>
+	</div>
+	</div>	
 	
 	<div class="team-box">
 	<!--member-img-->
 	<div class="team-img t-img2"></div>
 	<div class="t-id">
 	<a href="#">Mateo Mansilla</a>
-			<p>Full Stack</p>
+			<p>Full Stack Developer</p>
 	</div>
 	</div>
 	
@@ -149,42 +170,42 @@
 	</div>
 	<!--footer-->
 	<footer>
-	<!---------------------------->
-	<div class="dw-footer">
-	<!--1-->
+		<!---------------------------->
+		<div class="dw-footer">
+		<!--1-->
+			<ul>
+		<h1>Team</h1>
+		<li><a href="#">Mateo Mansilla</a></li>
+		<li><a href="#">Merlina Vazquez</a></li>
+		</ul>
+		<!--2-->
 		<ul>
-	<h1>Team</h1>
-	<li><a href="#">Mateo Mansilla</a></li>
-	</ul>
-	<!--2-->
-	<ul>
-	<h1>Channel</h1>
-	<li><a href="#">Website</a></li>
-	<li><a href="#">Blogs</a></li>
-
-	</ul>
+		<h1>Channel</h1>
+		<li><a href="https://github.com/IMhat">GitHub</a></li>
+		<li><a href="https://imhat.github.io/ComisionCH24500/">Website</a></li>
+		<li><a href="#">Blogs</a></li>
 	
-	<!--social-->
-	<div class="social">
-	<h1>Social</h1>
-	<div class="social-icons">
-	<a href="#"><i class="fab fa-facebook-f"></i></a>
-	<a href="#"><i class="fab fa-twitter"></i></a>
-	<a href="#"><i class="fab fa-instagram"></i></a>
-	<a href="#"><i class="fa fa-linkedin-square"></i></a>
-	</div>
-	</div>
-	<!--search-->
-	<div class="search">
-	<h1>Search</h1>
-	<input type="search" placeholder=" Search Somthing Here">
-	</div>
-	</div>
-	<!--copyright-->
-    <p class="copyright"> <font color="2a2929">Mat</font> developer copyright 2022</p>
-	
-	</footer>
+		</ul>
+		
+		<!--socail-->
+		<div class="social">
+		<h1>Social</h1>
+		<div class="social-icons">
+		<a href="https://www.facebook.com/mateo.mansilla.56/"><i class="fab fa-facebook-f"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="https://www.instagram.com/mateomansilla22/?hl=es-la"><i class="fab fa-instagram"></i></a>
+		<a href="https://www.linkedin.com/in/mateo-mansilla-52a895227/"><i class="fa fa-linkedin-square"></i></a>
+		</div>
+		</div>
+		
+		</div>
+		<!--copyright-->
+		<p class="copyright"> Mat developer copyright 2022</p>
+		
+		</footer>
 	<!--Scripts---------------------->
+	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="./js/nav.js"></script>
 	   <!--ReadMore(Button)---------------------->
         
 	<script>

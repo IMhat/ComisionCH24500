@@ -12,21 +12,32 @@
     <title>Contact</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <!--logo-------------------->
-            <div class="menu-left">
-            <img src="../images/logo.png" class="logo">
-            <a class="sign-in" href="../index.html">Home</a>
-            <a class="sign-in" href="../index.html">Services</a>
-            <a class="sign-in"  href="../pages/Quienes-somos.html">About us</a>
-            <a class="sign-in"  href="../pages/Jobs.html">Jobs</a>
-            <a class="sign-in"  href="../pages/FAQ.html">FAQ</a>
-            </div>
-            <!--Contact(button)----------------------------->
-            <a href="./Contacto.html" class="sign-in">Contact</a>
-            </nav>
-    </header>
+    
+        <!--logo-------------------->
+	<!--logo-------------------->
+    <div class="logo-left">
+		<a href="../index.html"><img src="../images/logo.png" class="logo"></a>
+	<nav class="menu" id="menu">
+        <a href="../index.html"><img src="../images/logo.png" class="logo-mobile"></a>
+        <ul class="list">
+            <li><a class="sign-in" href="../index.html">Home</a></li>
+            <li><a class="sign-in" href="../index.html">Services</a></li>
+            <li><a class="sign-in" href="../pages/Quienes-somos.html">About us</a></li>
+            <li><a class="sign-in" href="../pages/Jobs.html">Portfolio</a></li>
+            <li><a class="sign-in" href="../pages/FAQ.html">FAQ</a></li>
+            <li><a class="sign-in" href="../pages/Contacto.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content_icons" id="content_icons">
+        <div class="icon_close icon_none btn" id="close">
+            <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <div class="icon_multi btn" id="multi">
+            <ion-icon name="grid-outline"></ion-icon>
+        </div>
+    </div>
+</div>
+    
     <!----------------FORM(CONTACT)-------------------->
     <Article>
         <div class="Contenido">
@@ -67,12 +78,13 @@
                 <div class="Contact-info">
                     <h4>More info</h4>
                     <ul>
-                        <li><i class="fas fa-map-marker-alt"></i>Baker Street</li>
-                        <li><i class="fas fa-phone"></i> 111 111 111</li>
-                        <li><i class="fas fa-envelope-open-text"></i> contact@website.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i>La florida 3250, San Carlos De Bariloche.</li>
+                        <li><i class="fas fa-phone"></i> (+54) 2944 599195</li>
+                        <li><i class="fas fa-envelope-open-text"></i>Mateobariloche28@gmail.com</li>
                     </ul>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, reiciendis?</p>
-                    <p> Company.com</p>
+                    <p>Do you have any questions, or want to hire me. <br>
+                        Contact me!</p>
+                    <p>Mat-Developer</p>
                 </div>
             </div>
         </div>
@@ -85,11 +97,13 @@
 		<ul>
 	<h1>Team</h1>
 	<li><a href="#">Mateo Mansilla</a></li>
+	<li><a href="#">Merlina Vazquez</a></li>
 	</ul>
 	<!--2-->
 	<ul>
 	<h1>Channel</h1>
-	<li><a href="#">Website</a></li>
+	<li><a href="https://github.com/IMhat">GitHub</a></li>
+	<li><a href="https://imhat.github.io/ComisionCH24500/">Website</a></li>
 	<li><a href="#">Blogs</a></li>
 
 	</ul>
@@ -98,21 +112,20 @@
 	<div class="social">
 	<h1>Social</h1>
 	<div class="social-icons">
-	<a href="#"><i class="fab fa-facebook-f"></i></a>
+	<a href="https://www.facebook.com/mateo.mansilla.56/"><i class="fab fa-facebook-f"></i></a>
 	<a href="#"><i class="fab fa-twitter"></i></a>
-	<a href="#"><i class="fab fa-instagram"></i></a>
-	<a href="#"><i class="fa fa-linkedin-square"></i></a>
+	<a href="https://www.instagram.com/mateomansilla22/?hl=es-la"><i class="fab fa-instagram"></i></a>
+	<a href="https://www.linkedin.com/in/mateo-mansilla-52a895227/"><i class="fa fa-linkedin-square"></i></a>
 	</div>
 	</div>
-	<!--search-->
-	<div class="search">
-	<h1>Search</h1>
-	<input type="search" placeholder=" Search Somthing Here">
-	</div>
+	
 	</div>
 	<!--copyright-->
-    <p class="copyright"> <font color="2a2929">Mat</font> developer copyright 2022</p>
+    <p class="copyright"> Mat developer copyright 2022</p>
 	
 	</footer>
+    <!--Scripts---------------------->
+	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="../js/nav.js"></script>
 </body>
 </html>
